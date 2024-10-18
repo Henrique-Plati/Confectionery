@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara & Cia </title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="" id="nav_logo"> Clara & Cia</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Doces</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <a class="btn-wh" href="https://api.whatsapp.com/message/3ZLXFV3WXCEUM1?autoload=1&app_absent=0"
+                target="_blank">
+                <button class="btn-default">
+                    Peça aqui
+                </button>
+            </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+        <script src="src/javascript/script.js"></script>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    Doces que fazem seu dia <br>
+                    <span>melhor</span>
+                </h1>
+
+                <p class="description">Bem-vindo à Clara & Cia, o seu destino para doces gourmet que encantam os
+                    sentidos! <br>
+                    Aqui, cada receita é uma combinação perfeita de sabor, qualidade e criatividade, criada para
+                    surpreender e agradar.
+                </p>
+
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+                    <a href="tel:+5515996404285" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"> </i>
+                        </button>
+                        (15) 99640-4285
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/message/3ZLXFV3WXCEUM1?autoload=1&app_absent=0" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/claraecia/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/claraeciatatui" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/candy.jpeg" alt="" id="img">
+            </div>
+
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="sub-title">Nossos doces especiais</h3>
+
+            <div id="candys">
+                <div class="candy">
+                    <div class="candy-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/candy1.jpeg" class="candy-image" alt="">
+
+                    <h3 class="candy-title"> Lorem Ipsum
+                    </h3>
+
+                    <span class="candy-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+
+                    <div class="candy-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="rate">(500+)</span>
+                    </div>
+
+                    <div class="candy-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="candy">
+                    <div class="candy-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/candy2.jpeg" class="candy-image" alt="">
+
+                    <h3 class="candy-title"> Lorem Ipsum
+                    </h3>
+
+                    <span class="candy-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+
+                    <div class="candy-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="rate">(500+)</span>
+                    </div>
+
+                    <div class="candy-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="candy">
+                    <div class="candy-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/candy3.jpeg" class="candy-image" alt="">
+
+                    <h3 class="candy-title"> Lorem Ipsum
+                    </h3>
+
+                    <span class="candy-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+
+                    <div class="candy-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="rate">(500+)</span>
+                    </div>
+
+                    <div class="candy-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="candy">
+                    <div class="candy-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/candy4.jpeg" class="candy-imageimage" alt="">
+
+                    <h3 class="candy-title"> Lorem Ipsum
+                    </h3>
+
+                    <span class="candy-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+
+                    <div class="candy-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="rate">(500+)</span>
+                    </div>
+
+                    <div class="candy-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" class="testimonials-chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Avaliações</h2>
+                <h3 class="subtitle">O que os clientes falam sobre nós</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p class="testimonials-name">
+                                Julia
+                                <span><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i></span>
+                            </p>
+                            <p class="testimonials-feed">Um lugar aconchegante com ótimo atendimento e doces maravilhosos!</p>
+
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar2.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p class="testimonials-name">
+                                Eduardo
+                                <span><i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i></span>
+                            </p>
+                            <p class="testimonials-feed">Umas das mais tradicionais docerias de Tatuí e Região!</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cta_buttons">
+                    <a href="https://www.google.com/search?q=clara+e+cia&oq=clar&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIQCAEQLhjHARixAxjRAxiABDIGCAIQRRhAMgYIAxBFGDkyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgYIBhBFGDwyBggHEEUYPNIBCDM3MjFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x94c5d9327952b5ef:0xd5e2ce9f8618f0b2,1,,,,"
+                        class="btn-default" target="_blank">
+                        Ver mais avaliações
+                    </a>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/images/wave1.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Henrique Plati
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://api.whatsapp.com/message/3ZLXFV3WXCEUM1?autoload=1&app_absent=0" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/claraecia/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/claraeciatatui" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

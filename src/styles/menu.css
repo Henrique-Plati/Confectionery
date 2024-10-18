@@ -1,0 +1,92 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#candys{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.candy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.candy:hover{
+    box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.1);
+}
+
+.candy-heart{
+    position: absolute;
+    background-color: #f63990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    color: white;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.candy-description{
+    color: #434343;
+    text-align: center;
+}
+
+.candy-rate i {
+    color: yellow;
+}
+.rate{
+    color: #434343; 
+}
+
+.candy-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1170px){
+    #candys {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .candy{
+        width: calc(50% - 12px);
+}
+}
+
+@media screen and (max-width: 600px){
+    #candys {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .candy{
+        width: calc(100% - 12px);
+}
+}
